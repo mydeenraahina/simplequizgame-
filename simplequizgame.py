@@ -70,13 +70,14 @@ if choice.lower()=="yes":
     print("let's play")
     play()
 else:
-    pass
+    print("type no to exit/yes to continue")
 while True:
     choice=input("do you want continue this game:")
     if choice.lower()=="yes":
         print("let's play")
         play()
     else:
+        print("exited!")
         break
 #type 2
 def play():
@@ -159,13 +160,14 @@ if choice.lower()=="yes":
     print("let's play")
     play()
 else:
-    pass
+    print("type no to exit/yes to continue")
 while True:
     choice=input("do you want continue this game:")
     if choice.lower()=="yes":
         print("let's play")
         play()
     else:
+        print("exited!")
         break
         
 
