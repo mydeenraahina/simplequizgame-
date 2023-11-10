@@ -1,7 +1,7 @@
 
 
 #type 1
-def play():
+def play_quiz():
     score=0
     question1=input("india is a ________ contry : ")
     if question1.lower()=="developing":
@@ -65,22 +65,25 @@ def play():
         print("incorrect")
     print("Total score=",score)
 print("welcome to our quiz")
-choice=input("do you want do play this game:")
+choice=input(f"Do you want do play this game[yes/no]:")
 if choice.lower()=="yes":
     print("let's play")
-    play()
+   play_quiz()
+    while True:
+        choice=input(f"Do you want continue this game[yes/no]:")
+        if choice.lower()=="yes":
+            print("let's play")
+            play_quiz()
+        else:
+            print("Exit!")
+            break
 else:
-    print("type no to exit/yes to continue")
-while True:
-    choice=input("do you want continue this game:")
-    if choice.lower()=="yes":
-        print("let's play")
-        play()
-    else:
-        print("exited!")
-        break
+    print("Exit!")
+        
+
+
 #type 2
-def play():
+def play_quiz():
     score=0
     score1=0
     question1=input("india is a ________ contry : \n a)developing b)developed\nyour answer is ")
@@ -155,22 +158,18 @@ def play():
         score1=score1+1
     print("Total score \n correct",score,"incorrect",score1)
 print("welcome to our quiz")
-choice=input("do you want do play this game:")
+choice=input(f"Do you want do play this game[yes/no]:")
 if choice.lower()=="yes":
     print("let's play")
-    play()
+  vvplay_quiz()
+    while True:
+        choice=input(f"Do you want continue this game[yes/no]:")
+        if choice.lower()=="yes":
+            print("let's play")
+           vplay_quiz()
+        else:
+            print("Exit!")
+            break
 else:
-    print("type no to exit/yes to continue")
-while True:
-    choice=input("do you want continue this game:")
-    if choice.lower()=="yes":
-        print("let's play")
-        play()
-    else:
-        print("exited!")
-        break
-        
-
-
-        
+    print("exit!")
 
