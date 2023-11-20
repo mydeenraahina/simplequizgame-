@@ -1,7 +1,7 @@
 <div align='center'>
 
 <h1>THIS IS A simplequiz GAME USING PYTHON</h1>
-<p>This a code for a simple quiz game. Here's an overview of the working pattern:
+<p>This code implements a simple quiz game. Here's an overview of the working pattern:
 
 Welcome Message and Initial Input:
 
